@@ -1,9 +1,9 @@
-resource_group_name = "cooey-terraform-rg"
+resource_group_name = "cooey-terraformtestrg"
 resource_group_location = "East US"
 location = "East US"
-vnet_name = "terravnet"
+vnet_name = "terratestvnet"
 network_address_space = "10.0.0.0/16"
 aks_subnet_address_prefix = "10.0.1.0/24"
-aks_subnet_address_name = "terrasubnet"
+aks_subnet_address_name = "terratestsubnet"
 vnet_environment = "development"
 
