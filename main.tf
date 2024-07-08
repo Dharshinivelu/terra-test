@@ -2,7 +2,7 @@ data "azurerm_resource_group" "example" {
   name = var.resource_group_name
 }
 module "vnet" {
-  source                      = "modules/vnet"  #../modules/vnet
+  source                      = "module/vnet"  #../modules/vnet
   vnet_name                        = var.vnet_name
   location                    = var.location
   network_address_space       = var.network_address_space
