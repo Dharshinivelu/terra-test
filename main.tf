@@ -1,7 +1,7 @@
 data "azurerm_resource_group" "example" {
   name = var.resource_group_name
 }
-module "vnet" {
+module {
   source                      = "/home/cloud/project/modules"  #../modules/vnet
   vnet_name                        = var.vnet_name
   location                    = var.location
