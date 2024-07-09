@@ -1,4 +1,4 @@
-resource_group_name = "cooey-terraformtestrg"
+resource_group_name = "terra-test"
 resource_group_location = "East US"
 location = "East US"
 vnet_name = "terratestvnet"
